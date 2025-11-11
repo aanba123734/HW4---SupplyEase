@@ -9,27 +9,27 @@ graph TD
     classDef yellowBox fill:#A6A600,stroke-width:2px,color:#fff
     classDef blueBox fill:#0072E3,stroke-width:2px,color:#fff
 
-    B1["Create Purchase Request"]:::greenBox
+    B1["Create Purchase Request"]:::yellowBox
     B2["Create Purchase Order"]:::yellowBox
-    B3["Create Material Code"]:::greenBox
-    B4["Create Expedite"]:::yellowBox
-    B5["Create Payment"]:::blueBox
+    B3["Create Material Code"]:::yellowBox
+    B4["Create Expedite"]:::greenBox
+    B5["Create Payment"]:::greenBox
 
-    C1["PR - PO Status"]:::greenBox
+    C1["PR - PO Status"]:::yellowBox
     C2["Delivery Status"]:::yellowBox
-    C3["Payment Status"]:::blueBox
-    C4["Real-Time Statistics"]:::blueBox
+    C3["Payment Status"]:::greenBox
+    C4["Real-Time Statistics"]:::greenBox
 
     D1["Sourcing Project"]:::yellowBox
 
-    E1["Supplier Information"]:::greenBox
+    E1["Supplier Information"]:::yellowBox
     E2["Supplier Request / Registration"]:::yellowBox
-    E3["Supplier Ranking / Grouping"]:::yellowBox
-    E4["Supplier Bidding History"]:::blueBox
+    E3["Supplier Ranking / Grouping"]:::greenBox
+    E4["Supplier Bidding History"]:::greenBox
 
-    G1["Login / Signup"]:::greenBox
+    G1["Login / Signup"]:::yellowBox
     G2["User Profile"]:::yellowBox
-    G3["Log Out"]:::greenBox
+    G3["Log Out"]:::yellowBox
 
     A[Homepage Internal]:::homepage --> B(Create);
     A --> C(Status);
@@ -76,18 +76,18 @@ graph TD
     classDef blueBox fill:#0072E3,stroke-width:2px,color:#fff
     classDef loginBox fill:#2d5016,stroke-width:3px,color:#fff
 
-    I1["Update Company Information Request"]:::greenBox
-    I2["Update Supply Information Request"]:::yellowBox
+    I1["Update Company Information Request"]:::yellowBox
+    I2["Update Supply Information Request"]:::greenBox
     
-    J1["Submit Quotation"]:::greenBox
+    J1["Submit Quotation"]:::yellowBox
     J2["Sourcing Project Status"]:::yellowBox
     J3["Purchase Order Recieved"]:::yellowBox
 
-    K1["Submit Expedition Status"]:::blueBox
-    K2["Update Expedition Status"]:::blueBox
+    K1["Submit Expedition Status"]:::greenBox
+    K2["Update Expedition Status"]:::greenBox
 
     L1["Submit Invoice"]:::greenBox
-    L2["Invoice Status"]:::yellowBox
+    L2["Invoice Status"]:::greenBox
 
     H[Homepage Supplier]:::homepage-->I(Account);
     H --> J(Quotation);
