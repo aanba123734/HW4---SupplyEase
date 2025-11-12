@@ -3,7 +3,7 @@ SupplyEase Organization Diagram
 
 ```mermaid
 graph TD
-    %% Style Definitions
+    %% Style Definitions (Yellow Box = MVP, Green Box = Additional Features)
     classDef homepage fill:#7B7B7B,stroke-width:2px,color:#fff
     classDef greenBox fill:#009100,stroke-width:2px,color:#fff
     classDef yellowBox fill:#A6A600,stroke-width:2px,color:#fff
@@ -69,7 +69,7 @@ graph TD
 ```
 ```mermaid
 graph TD
-    %% Style Definitions
+    %% Style Definitions (Yellow Box = MVP, Green Box = Additional Features)
     classDef homepage fill:#7B7B7B,stroke-width:2px,color:#fff
     classDef greenBox fill:#009100,stroke-width:2px,color:#fff
     classDef yellowBox fill:#A6A600,stroke-width:2px,color:#fff
@@ -110,10 +110,4 @@ graph TD
     %% Invoicing
     L --> L1(Submit Invoice);
     L --> L2(Invoice Status);
-```
-```mermaid
-graph TD
-    %% Notes
-    N[Yellow] --> N1(MVP)
-    M[Green] --> M1(Additional)
 ```
